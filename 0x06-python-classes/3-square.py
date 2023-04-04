@@ -1,11 +1,13 @@
 #!/usr/bin/python3
 """
 This is the "Square" module.
+
+Method area returns area of the square
 """
 
 
 class Square:
-    """A class that defines a square by size"""
+    """A class that defines a square by size and compute area"""
     def __init__(self, size=0):
         if type(size) != int:
             raise TypeError("size must be an integer")
